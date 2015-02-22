@@ -22,11 +22,11 @@ Compose a new list with letters only. It was removed all other characters but le
 def makeLettersLowercase(line):
     lineLower = line.lower()
     #print lineLower
-    palLetters = []
+    onlyLetters = []
     for str in lineLower:
         if str in ('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','q','v','w','x','y','z'):
-            palLetters.append(str)
-    return palLetters
+            onlyLetters.append(str)
+    return onlyLetters
 
 """
 """
