@@ -1,6 +1,6 @@
 __author__ = 'Admin'
 
-class FileReading:
+class FileProcessing:
     'This class returns all lines from the file'
     def __init__(self, filename):
         self.filename = filename

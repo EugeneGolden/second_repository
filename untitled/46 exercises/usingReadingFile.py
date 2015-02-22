@@ -3,6 +3,6 @@ __author__ = 'Admin'
 import classes
 
 
-afterReadingFile = classes.FileReading('pol.txt')
+afterReadingFile = classes.FileProcessing('pol.txt')
 afterReadingFile.openFile()
 
