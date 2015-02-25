@@ -1,23 +1,31 @@
 __author__ = 'Admin'
 
 
-class FileProcessing:
+class FileProcessor:
     """This class returns all lines from the file"""
 
-    def __init__(self, f, filename="pol.txt"):
+    def __init__(self, filename="pol.txt"):
         self.filename = filename
-        self.f = f
 
     def processFile(self):
         f = open(self.filename)
         for line in f:
             line = line.lower()
-        self.f.close()
+            #really don't know how to put ITextReceiver.receiver here
+        f.close()
+
+class ITextReceiver:
+    """This class accepts text"""
+
+    def __init__(self, text=None):
+        self.text = text
+
+    def receiver(self, text):
+        pass
 
 
-
-class ITextProcessing:
-    """This class for text processing"""
+class WordCount:
+    """This class for counting words"""
 
     def __init__(self, text=None):
         self.text = text
