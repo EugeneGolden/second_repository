@@ -10,18 +10,16 @@ class FileProcessor:
         f = open(self.filename)
         for line in f:
             line = line.lower()
-            WordCount.char_freq(line)
+            wc = WordCount()
+            wc.char_freq(line)
         f.close()
 
 class WordCount:
     """This class for counting words"""
 
-    def __init__(self):
-        pass
-
     my_dict = dict()
     def char_freq(self, line):
-        for key in line:
+        for key in self.line:
             if key in self.my_dict:
                  self.my_dict[key] =  self.my_dict[key] + 1
             else:
@@ -32,5 +30,5 @@ class WordCount:
 
 
 fp = FileProcessor("pol.txt")
-wc = WordCount()
+#wc = WordCount()
 fp.processFile()
