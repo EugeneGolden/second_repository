@@ -1,16 +1,7 @@
 __author__ = 'Admin'
 
-class ITextReceiver:
-    """This class accepts text"""
-
-    def __init__(self, text=None):
-        self.text = text
-
-    def receiver(self, text):
-        pass
-
-class FileProcessor(ITextReceiver):
-    """This class returns all lines from the file"""
+class FileProcessor:
+    """This class returns line by line from the file"""
 
     def __init__(self, filename="pol.txt"):
         self.filename = filename
@@ -19,17 +10,27 @@ class FileProcessor(ITextReceiver):
         f = open(self.filename)
         for line in f:
             line = line.lower()
-            ITextReceiver.receiver(line)
-            #really don't know how to put ITextReceiver.receiver here
+            WordCount.char_freq(line)
         f.close()
 
-class WordCount(ITextReceiver):
+class WordCount:
     """This class for counting words"""
 
+    def __init__(self):
+        pass
+
+    my_dict = dict()
     def char_freq(self, line):
-        my_dict = dict()
-        for key in ITextReceiver.receiver(line):
-            if key in my_dict:
-                my_dict[key] = my_dict[key] + 1
+        for key in line:
+            if key in self.my_dict:
+                 self.my_dict[key] =  self.my_dict[key] + 1
             else:
-                my_dict[key] = 1
+                 self.my_dict[key] = 1
+
+    def getDict(self):
+        return self.my_dict
+
+
+fp = FileProcessor("pol.txt")
+wc = WordCount()
+fp.processFile()
