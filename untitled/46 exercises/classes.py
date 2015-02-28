@@ -51,6 +51,8 @@ class CountWords:
     def getCount(self):
         return self.count
 
+#Now let's start executing our program
+
 filename = "pol.txt"
 fp = FileProcessor(filename)
 
