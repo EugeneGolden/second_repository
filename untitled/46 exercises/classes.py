@@ -28,4 +28,7 @@ class IReceiver:
 
 
 fp = FileProcessor("pol.txt")
-fp.processFile()
+ir = IReceiver
+ir.receiver(fp.processFile())
+ir.getDict()
+
