@@ -31,6 +31,7 @@ class WordsCalculator:
         return self.my_dict
 
 
+
 class AbstractFilter:
     def __init__(self, adaptor):
         self.adaptor = adaptor
@@ -52,6 +53,18 @@ class LowerCaseFilter(AbstractFilter):
         #print "LowerCaseFilter converted: " + text + "  into  " + filteredtext
         return filteredtext
 
+class RemoveVowels(AbstractFilter):
+    """This class removes all vowels from text"""
+
+    def filterText(self, text):
+        vowels = ('a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U')
+        filteredtext =''
+        for ch in text:
+            if ch in vowels:
+                continue
+            else:
+                filteredtext += ch
+        return filteredtext
 
 class OnlyLongLinesFilter(AbstractFilter):
     """This class makes all words lowercase"""
@@ -70,13 +83,15 @@ filename = "pol.txt"
 fp = FileProcessor(filename)
 wc = WordsCalculator()
 #fp.processFile(wc)
-lwc = LowerCaseFilter( wc )
-filterforwc = OnlyLongLinesFilter( lwc )
-fp.processFile(filterforwc)
+#lwc = LowerCaseFilter( wc )
+#filterforwc = OnlyLongLinesFilter( lwc )
+#fp.processFile(filterforwc)
 #filterforwc = OnlyLongLinesFilter( wc )
 #fp.processFile( filterforwc )
 #lwc = LowerCaseFilter( wc )
 #ollf = OnlyLongLinesFilter( lwc );
 #fp.processFile( ollf )
+rw = RemoveVowels( wc )
+fp.processFile( rw )
 print "This is results of words counting regarding file %s:" % filename, wc.getDict()
 
