@@ -8,7 +8,7 @@ class FileProcessor:
     def processFile(self, calculator):
         f = open(self.filename)
         for line in f:
-            print "processFile: " + line
+            #print "processFile: " + line
             calculator.receive(line)
         f.close()
 
@@ -19,7 +19,7 @@ class WordsCalculator:
 
     def receive(self, line):
         print "WordsCalculator receive: " + line
-        line = line.split() #split words to have elements of a list
+        #line = line.split() #split words to have elements of a list
         for key in line:
             if key in self.my_dict:
                 self.my_dict[key] = self.my_dict[key] + 1
@@ -49,7 +49,7 @@ class LowerCaseFilter(AbstractFilter):
 
     def filterText(self, text ):
         filteredtext = text.lower()
-        print "LowerCaseFilter converted: " + text + "  into  " + filteredtext
+        #print "LowerCaseFilter converted: " + text + "  into  " + filteredtext
         return filteredtext
 
 
@@ -59,7 +59,7 @@ class OnlyLongLinesFilter(AbstractFilter):
 
     def filterText(self, text ):
         if (len(text) > 10):
-            print "OnlyLongLinesFilter ALLOWED: " + text
+            #print "OnlyLongLinesFilter ALLOWED: " + text
             return text.lower()
         else:
             print "OnlyLongLinesFilter BLOCKED: " + text
@@ -69,13 +69,14 @@ class OnlyLongLinesFilter(AbstractFilter):
 filename = "pol.txt"
 fp = FileProcessor(filename)
 wc = WordsCalculator()
-fp.processFile(wc)
+#fp.processFile(wc)
 lwc = LowerCaseFilter( wc )
-fp.processFile(lwc)
-filterforwc = OnlyLongLinesFilter( wc )
-fp.processFile( filterforwc )
-lwc = LowerCaseFilter( wc )
-ollf = OnlyLongLinesFilter( lwc );
-fp.processFile( ollf )
+filterforwc = OnlyLongLinesFilter( lwc )
+fp.processFile(filterforwc)
+#filterforwc = OnlyLongLinesFilter( wc )
+#fp.processFile( filterforwc )
+#lwc = LowerCaseFilter( wc )
+#ollf = OnlyLongLinesFilter( lwc );
+#fp.processFile( ollf )
 print "This is results of words counting regarding file %s:" % filename, wc.getDict()
 
