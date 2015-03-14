@@ -1,0 +1,5 @@
+{
+"login": "ebogoroditskiy",
+"password": "password11",
+"class": "classinstance",
+}
