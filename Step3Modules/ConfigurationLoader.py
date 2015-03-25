@@ -3,7 +3,6 @@ import json
 
 class ConfigurationLoader:
     def __init__(self, filename = "configuration.txt"):
-        #self.filename = filename
         f = open( filename )
         jsonData = f.read()
         self.config = json.loads(jsonData)
@@ -11,6 +10,6 @@ class ConfigurationLoader:
     def getPassword(self):
         return self.config.get("password")
 
-
-cl = ConfigurationLoader()
+filename = "configuration.txt"
+cl = ConfigurationLoader( filename )
 print cl.getPassword()
