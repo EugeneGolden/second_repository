@@ -3,7 +3,7 @@ Write a procedure char_freq_table() that, when run in a terminal, accepts a file
 builds a frequency listing of the characters contained in the file, and prints a sorted and nicely
 formatted character frequency table to the screen.
 """
-
+"""
 def char_freq_table(fileName):
     f = open(fileName) #open a file
     my_dict =dict() #create an empty dictionary
@@ -21,4 +21,11 @@ def char_freq_table(fileName):
         print key, '|', my_dict[key]
 
 char_freq_table('pol.txt')
+
+"""
+
+from selenium import webdriver
+
+browser = webdriver.Firefox()
+browser.get('http://seleniumhq.org/')
 
