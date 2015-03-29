@@ -1,5 +1,5 @@
 {
-"login": "ebogoroditskiy",
-"password": "password11",
-"class": "classinstance",
+    "login": "ebogoroditskiy",
+    "password": "password11",
+    "class": "classinstance",
 }
