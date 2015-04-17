@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b2127a4-81ae-4fa7-9871-20f572379c8e" name="Default" comment="isXpath method">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SC/scenariosSmartClient/CreatePropertyScenario.py" afterPath="$PROJECT_DIR$/SC/scenariosSmartClient/CreatePropertyScenario.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SC/core/SeleniumContainer.py" afterPath="$PROJECT_DIR$/SC/core/SeleniumContainer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SC/configuration.txt" afterPath="$PROJECT_DIR$/SC/configuration.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -120,8 +119,8 @@
       <file leaf-file-name="CreatePropertyScenario.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SC/scenariosSmartClient/CreatePropertyScenario.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42010772" vertical-offset="565" max-vertical-offset="3570">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.8779174" vertical-offset="2197" max-vertical-offset="3570">
+              <caret line="158" column="41" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -712,7 +711,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429215883015</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="hm... selenium knows how to work with js, I checked it. But I haven't found how to make selenium to work with that custom scroll bar. It's not a scroll bar of the browser and that form is not an iframe.... so spent 4 hours and didn't find the answer">
+      <created>1429304103156</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1429304103156</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -740,19 +745,19 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1743064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3173516" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13356164" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3173516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1743064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39566705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -794,7 +799,8 @@
     <MESSAGE value="There are issues with Street Type field - can't find a value in the dropdown after typing an exact value.&#10;And don't know yet how to concatenate values for my assert. Need to think" />
     <MESSAGE value="managed to select Street item in the drop down, but can't select a country item in Country drop down" />
     <MESSAGE value="it seems that selenium doesn't see elements with display: none attribute. So I need to workaround it. I wasn't able to insert a value into fields which are invisible on the form" />
-    <option name="LAST_COMMIT_MESSAGE" value="it seems that selenium doesn't see elements with display: none attribute. So I need to workaround it. I wasn't able to insert a value into fields which are invisible on the form" />
+    <MESSAGE value="hm... selenium knows how to work with js, I checked it. But I haven't found how to make selenium to work with that custom scroll bar. It's not a scroll bar of the browser and that form is not an iframe.... so spent 4 hours and didn't find the answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="hm... selenium knows how to work with js, I checked it. But I haven't found how to make selenium to work with that custom scroll bar. It's not a scroll bar of the browser and that form is not an iframe.... so spent 4 hours and didn't find the answer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1218,8 +1224,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SC/scenariosSmartClient/CreatePropertyScenario.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42010772" vertical-offset="565" max-vertical-offset="3570">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.8779174" vertical-offset="2197" max-vertical-offset="3570">
+          <caret line="158" column="41" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
           <folding />
         </state>
       </provider>
