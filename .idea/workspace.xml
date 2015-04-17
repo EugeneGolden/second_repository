@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2b2127a4-81ae-4fa7-9871-20f572379c8e" name="Default" comment="isXpath method">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SC/scenariosSmartClient/CreatePropertyScenario.py" afterPath="$PROJECT_DIR$/SC/scenariosSmartClient/CreatePropertyScenario.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SC/__main__.py" afterPath="$PROJECT_DIR$/SC/__main__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SC/core/SeleniumContainer.py" afterPath="$PROJECT_DIR$/SC/core/SeleniumContainer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SC/configuration.txt" afterPath="$PROJECT_DIR$/SC/configuration.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SC/localization/title_resource_EN.txt" afterPath="$PROJECT_DIR$/SC/localization/title_resource_EN.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PycharmProjects.iws" />
@@ -42,10 +41,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ScenarioManager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SC/core/ScenarioManager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="1156">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ApplicationContext.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SC/core/ApplicationContext.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1547">
+            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1547">
               <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
@@ -67,18 +78,8 @@
       <file leaf-file-name="AbstractScenario.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SC/core/AbstractScenario.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1394">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SC/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,7 +88,7 @@
       <file leaf-file-name="configuration.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SC/configuration.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -97,7 +98,7 @@
       <file leaf-file-name="title_resource_EN.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SC/localization/title_resource_EN.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1317" max-vertical-offset="2669">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1955" max-vertical-offset="2669">
               <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
               <folding />
             </state>
@@ -107,20 +108,10 @@
       <file leaf-file-name="SeleniumContainer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SC/core/SeleniumContainer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1955" max-vertical-offset="3145">
-              <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainLogger.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SC/core/MainLogger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="952">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2728" max-vertical-offset="3298">
+              <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,8 +120,8 @@
       <file leaf-file-name="CreatePropertyScenario.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SC/scenariosSmartClient/CreatePropertyScenario.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.9982456" vertical-offset="2915" max-vertical-offset="3485">
-              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.42010772" vertical-offset="565" max-vertical-offset="3570">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -192,9 +183,9 @@
         <option value="$PROJECT_DIR$/SC/SeleniumWrapper.py" />
         <option value="$PROJECT_DIR$/SC/AssertFunctions.py" />
         <option value="$PROJECT_DIR$/SC/configuration.txt" />
-        <option value="$PROJECT_DIR$/SC/core/SeleniumContainer.py" />
         <option value="$PROJECT_DIR$/SC/localization/title_resource_EN.txt" />
         <option value="$PROJECT_DIR$/SC/__main__.py" />
+        <option value="$PROJECT_DIR$/SC/core/SeleniumContainer.py" />
         <option value="$PROJECT_DIR$/SC/scenariosSmartClient/CreatePropertyScenario.py" />
       </list>
     </option>
@@ -354,123 +345,6 @@
       <recent name="C:\Documents and Settings\Admin\PycharmProjects\Step3Modules" />
       <recent name="C:\Documents and Settings\Admin\PycharmProjects\Step2Classes" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="Moments ago" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/SC/.idea/SC.iml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/SC/.idea/misc.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/SC/.idea/vcs.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/SC/.idea/workspace.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/SC/core/SeleniumContainer.py</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/SC/scenariosSmartClient/CreatePropertyScenario.py</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with tree conflicts" />
-          <option name="myStatusName" value="Merged with tree conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with property conflicts" />
-          <option name="myStatusName" value="Will be merged with property conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Switched" />
-          <option name="myStatusName" value="Switched" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SWITCHED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Python.__main__">
     <configuration default="false" name="ConfigurationLoader" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -832,7 +706,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428950947674</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="it seems that selenium doesn't see elements with display: none attribute. So I need to workaround it. I wasn't able to insert a value into fields which are invisible on the form">
+      <created>1429215883015</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1429215883015</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -860,7 +740,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1013269" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1743064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3173516" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -913,7 +793,8 @@
     <MESSAGE value="learnt how to find some difficult locators. Sent keys. Will finish with the other locators and keys. Left mechanical work only for property form" />
     <MESSAGE value="There are issues with Street Type field - can't find a value in the dropdown after typing an exact value.&#10;And don't know yet how to concatenate values for my assert. Need to think" />
     <MESSAGE value="managed to select Street item in the drop down, but can't select a country item in Country drop down" />
-    <option name="LAST_COMMIT_MESSAGE" value="managed to select Street item in the drop down, but can't select a country item in Country drop down" />
+    <MESSAGE value="it seems that selenium doesn't see elements with display: none attribute. So I need to workaround it. I wasn't able to insert a value into fields which are invisible on the form" />
+    <option name="LAST_COMMIT_MESSAGE" value="it seems that selenium doesn't see elements with display: none attribute. So I need to workaround it. I wasn't able to insert a value into fields which are invisible on the form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -964,13 +845,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Step3Modules/ConfigurationLoader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39534885" vertical-offset="0" max-vertical-offset="559">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Step3Modules/configuration.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09123435" vertical-offset="0" max-vertical-offset="559">
@@ -1246,14 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SC/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SC/core/LocalizationProvider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
@@ -1268,39 +1134,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SC/core/MainLogger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SC/core/ApplicationContext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1547">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SC/core/AbstractScenario.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1394">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SC/configuration.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SC/localization/title_resource_EN.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2669">
+          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SC/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SC/core/MainLogger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3140351" vertical-offset="382" max-vertical-offset="952">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,26 +1178,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SC/localization/title_resource_EN.txt">
+    <entry file="file://$PROJECT_DIR$/SC/core/AbstractScenario.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2669">
-          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1394">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SC/core/ScenarioManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="1156">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SC/core/ApplicationContext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1547">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SC/core/SeleniumContainer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1904" max-vertical-offset="3145">
-          <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2728" max-vertical-offset="3298">
+          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SC/scenariosSmartClient/CreatePropertyScenario.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9982456" vertical-offset="2915" max-vertical-offset="3485">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.42010772" vertical-offset="565" max-vertical-offset="3570">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding />
         </state>
       </provider>
